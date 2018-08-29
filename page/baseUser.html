@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/base_c.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+	<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/mobileSelect.css"/>
+</head>
+<body>
+	<!-- 侧滑导航根容器 -->
+	<div class="mui-off-canvas-wrap mui-draggable">
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left" id='offCanvasSide'>
+				<div class="mui-scroll-wrapper bgScroll">
+					<div class="mui-scroll menuSLeft">
+						<!-- 菜单具体展示内容 -->
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面标题 -->
+			<header class="mui-bar mui-bar-nav">
+
+			</header>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content mui-scroll-wrapper">
+				<div class="mui-scroll">
+					<div class="baseMessages">
+						<div class="userHead clearFix">
+							<span class="lText">头像</span>
+							<span class="rHead"><img src="../images/user1_03.png" alt=""></span>
+						</div>
+						<div class="midMegs">
+							<div class="tel">
+								<span>手机号/账号</span>
+								<div class="rMsg">
+									18536961234
+								</div>
+							</div>
+							<div class="concats">
+								<span>联系人</span>
+								<div class="rMsg">
+									毛先生
+								</div>
+							</div>
+							<div class="comName">
+								<span>公司名称</span>
+								<div class="rMsg">
+									<input type="text" value="云南旭日环保设备有限公司">
+								</div>
+							</div>
+							<div class="serTel">
+								<span>服务电话</span>
+								<div class="rMsg">
+									<input type="text" value="13832652223">
+								</div>
+							</div>
+							<div class="comWeb">
+								<span>公司网址</span>
+								<div class="rMsg">
+									<input type="text" value="https://orx3zc.axshare.com">
+								</div>
+							</div>
+							<div class="comMail">
+								<span>企业邮箱</span>
+								<div class="rMsg">
+									<input type="text" value="13832652223@163.com">
+								</div>
+							</div>
+							<div class="address">
+								<span>地址</span>
+								<div class="rMsg">
+								<div id="trigger1">选择地址</div><i class="iconfont icon-youjiantou-"></i>
+								</div>
+							</div>
+						</div>
+						<div class="botMsg">
+                            <div class="industry">
+								<span>行业</span>
+								<div class="rMsg">
+								<div id="trigger2">机械 | 专用设备</div>
+								<i class="iconfont icon-youjiantou-"></i>
+								</div>
+							</div>
+							<div class="range">
+								<span>经营范围</span>
+								<div class="rMsg">
+								<input type="text" value="环保设备">
+								</div>
+							</div>
+						</div>
+
+						<div class="btnUpdate">
+                            <a href="#" class="cancel">取消</a>
+                            <a href="updateMsg.html">确定</a>
+						</div>
+					</div>
+            <!-- 在线客服 -->
+                  <div class="onlineM">
+                      <div class="rightBox">
+                          <div class="portrait">
+                              <div class="textImg"><img src="../images/onlineText.png" alt=""></div>
+                              <div class="portraitImg">
+                              <img src="../images/onlineHead.png" alt="">
+                              </div>
+                              <div class="onlineName">
+                                 唐月芹
+                              </div>
+                          </div>
+                          <div class="listsConcat">
+                              <ul>
+                                  <li>
+                                      <div class="iconfont icon-qq"></div>
+                                      <div class="listText">QQ交谈</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-tencentqq"></div>
+                                          <div class="nowConcat qqNow">您好有什么问题
+                                          请立即与我联系</div>
+                                          <div class="btnConcat"><a href="#">点击咨询</a></div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="iconfont icon-VIPhuiyuan"></div>
+                                      <div class="listText">VIP专线</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-VIPhuiyuan"></div>
+                                          <div class="nowConcat qqNow VipNow">尊享VIP专线0312-8634995竭诚为您服务</div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="iconfont icon-ai206"></div>
+                                      <div class="listText" style="border-bottom: none;">专属客服</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-ai206"></div>
+                                          <div class="nowConcat">马上取得联系</div>
+                                          <div class="telConcat">15900099963</div>
+                                          <div class="btnConcat"><a href="#">免费通话</a></div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                              </ul>
+                                
+                          </div>
+                      </div>
+                  </div>
+				</div>
+				<!--结束-->
+			</div>
+		</div>
+
+		<script src="../js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>		
+		<script src="../js/head.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/mobileSelect.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/online.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			mui('.mui-scroll-wrapper').scroll({
+				deceleration: 0.0005
+			});
+
+		</script>
+	<script type="text/javascript">
+		var mobileSelect1 = new MobileSelect({
+      trigger: '#trigger1',
+      title: '请选择地址',
+      wheels: [
+                  {data:[
+                      {
+                          id:'1',
+                          value:'北京市'
+                      },
+                      {
+                      	id:'2',
+                      	value:'河北省',
+                        childs:[
+                              {id:'1',value:'石家庄市'},
+                              {id:'2',value:'邯郸市'},
+                              {id:'3',value:'唐山市'},
+                              {id:'4',value:'保定市'},
+                              {id:'5',value:'邢台市'},
+                              {id:'6',value:'张家口市'},
+                              {id:'7',value:'承德市'},
+                              {id:'8',value:'沧州市'},
+                              {id:'9',value:'廊坊市'},
+                              {id:'10',value:'衡水市'},
+                              {id:'11',value:'辛集市'},
+                              {id:'12',value:'晋州市'},
+                              {id:'13',value:'新乐市'},
+                              {id:'14',value:'遵化市'},
+                              {id:'15',value:'迁安市'},
+                              {id:'16',value:'霸州市'},
+                              {id:'17',value:'三河市'},
+                              {id:'18',value:'定州市'},
+                              {id:'19',value:'涿州市'},
+                              {id:'20',value:'安国市'},
+                              {id:'21',value:'高碑店市'},
+                              {id:'22',value:'泊头市'},
+                              {id:'23',value:'任丘市'},
+                              {id:'24',value:'黄骅市'},
+                              {id:'25',value:'河间市'},
+                              {id:'26',value:'冀州市'},
+                              {id:'27',value:'深州市'},
+                              {id:'28',value:'南宫市'},
+                              {id:'29',value:'沙河市'},
+                              {id:'30',value:'武安市'}
+                          ]
+                      },
+                      {
+                      	id:'3',
+                      	value:'山西省',
+                      	childs:[
+                              {id:'1',value:'太原市'},
+                              {id:'2',value:'大同市'},
+                              {id:'3',value:'朔州市'},
+                              {id:'4',value:'阳泉市'},
+                              {id:'5',value:'长治市'},
+                              {id:'6',value:'晋城市'},
+                              {id:'7',value:'忻州市'},
+                              {id:'8',value:'吕梁市'},
+                              {id:'9',value:'晋中市'},
+                              {id:'10',value:'临汾市'},
+                              {id:'11',value:'运城市'},
+                              {id:'12',value:'古交市'},
+                              {id:'13',value:'潞城市'},
+                              {id:'14',value:'高平市'},
+                              {id:'15',value:'原平市'},
+                              {id:'16',value:'孝义市'},
+                              {id:'17',value:'汾阳市'},
+                              {id:'18',value:'介休市'},
+                              {id:'19',value:'侯马市'},
+                              {id:'20',value:'霍州市'},
+                              {id:'21',value:'永济市'},
+                              {id:'22',value:'河津市'}
+                          ]
+                      },
+                      {
+                      	id:'4',
+                      	value:'内蒙古自治区',
+                      	childs:[
+                              {id:'1',value:'呼和浩特市'},
+                              {id:'2',value:'包头市'},
+                              {id:'3',value:'乌海市'},
+                              {id:'4',value:'赤峰市'},
+                              {id:'5',value:'呼伦贝尔市'},
+                              {id:'6',value:'通辽市'},
+                              {id:'7',value:'乌兰察布市'},
+                              {id:'8',value:'鄂尔多斯市'},
+                              {id:'9',value:'巴彦淖尔市'},
+                              {id:'10',value:'满洲里市'},
+                              {id:'11',value:'扎兰屯市'},
+                              {id:'12',value:'牙克石市'},
+                              {id:'13',value:'根河市'},
+                              {id:'14',value:'额尔古纳市'},
+                              {id:'15',value:'乌兰浩特市'},
+                              {id:'16',value:'阿尔山市'},
+                              {id:'17',value:'霍林郭勒市'},
+                              {id:'18',value:'锡林浩特市'},
+                              {id:'19',value:'二连浩特市'},
+                              {id:'20',value:'丰镇市'}
+                          ]
+                      },
+                      {
+                      	id:'5',
+                      	value:'辽宁省',
+                      	childs:[
+                              {id:'1',value:'沈阳市'},
+                              {id:'2',value:'大连市'},
+                              {id:'3',value:'朝阳市'},
+                              {id:'4',value:'阜新市'},
+                              {id:'5',value:'铁岭市'},
+                              {id:'6',value:'抚顺市'},
+                              {id:'7',value:'本溪市'},
+                              {id:'8',value:'辽阳市'},
+                              {id:'9',value:'鞍山市'},
+                              {id:'10',value:'丹东市'},
+                              {id:'11',value:'营口市'},
+                              {id:'12',value:'盘锦市'},
+                              {id:'13',value:'锦州市'},
+                              {id:'14',value:'葫芦岛市'},
+                              {id:'15',value:'新民市'},
+                              {id:'16',value:'瓦房店市'},
+                              {id:'17',value:'庄河市'},
+                              {id:'18',value:'北票市'},
+                              {id:'19',value:'凌源市'},
+                              {id:'20',value:'调兵山市'},
+                              {id:'21',value:'开原市'},
+                              {id:'22',value:'灯塔市'},
+                              {id:'23',value:'海城市'},
+                              {id:'24',value:'黄骅市'},
+                              {id:'25',value:'凤城市'},
+                              {id:'26',value:'东港市'},
+                              {id:'27',value:'大石桥市'},
+                              {id:'28',value:'盖州市'},
+                              {id:'29',value:'凌海市'},
+                              {id:'30',value:'北镇市'},
+                              {id:'31',value:'兴城市'}
+                          ]
+                      },
+                      {
+                      	id:'6',
+                      	value:'吉林省',
+                      	childs:[
+                              {id:'1',value:'长春市'},
+                              {id:'2',value:'吉林市'},
+                              {id:'3',value:'白城市'},
+                              {id:'4',value:'松原市'},
+                              {id:'5',value:'四平市'},
+                              {id:'6',value:'辽源市'},
+                              {id:'7',value:'通化市'},
+                              {id:'8',value:'白山市'},
+                              {id:'9',value:'德惠市'},
+                              {id:'10',value:'榆树市'},
+                              {id:'11',value:'磐石市'},
+                              {id:'12',value:'蛟河市'},
+                              {id:'13',value:'桦甸市'},
+                              {id:'14',value:'舒兰市'},
+                              {id:'15',value:'洮南市'},
+                              {id:'16',value:'大安市'},
+                              {id:'17',value:'双辽市'},
+                              {id:'18',value:'公主岭市'},
+                              {id:'19',value:'梅河口市'},
+                              {id:'20',value:'集安市'},
+                              {id:'21',value:'临江市'},
+                              {id:'22',value:'延吉市'},
+                              {id:'23',value:'图们市'},
+                              {id:'24',value:'敦化市'},
+                              {id:'25',value:'珲春市'},
+                              {id:'26',value:'龙井市'},
+                              {id:'27',value:'和龙市'},
+                              {id:'28',value:'扶余市'}
+                          ]
+                      }
+                  ]}
+              ],
+      position:[0,1],
+      callback:function(indexArr, data){
+          //console.log(data); //返回选中的json数据
+      }
+  });
+	</script>
+	<script>
+var mobileSelect3 = new MobileSelect({
+      trigger: '#trigger2',
+      title: '请选择行业',
+      wheels: [
+                  {data:[
+                      {
+                          id:'1',
+                          value:'五金',
+                          childs:[
+                              {id:'1',value:'机械五金'},
+                              {id:'2',value:'建筑五金'},
+                              {id:'3',value:'电气五金'},
+                              {id:'4',value:'五金材料'},
+                              {id:'5',value:'五金机械设备'}
+                          ]
+                      },
+                      {
+                      	id:'2',
+                      	value:'机械',
+                      	childs:[
+                              {id:'1',value:'农业机械'},
+                              {id:'2',value:'专业设备'},
+                              {id:'3',value:'仪器仪表'},
+                              {id:'4',value:'石化通用机械'}
+                          ]
+                      },
+                      {id:'3',value:'教育'},
+                      {id:'4',value:'环艺'}
+                  ]}
+              ],
+      position:[0,1],
+      callback:function(indexArr, data){
+          console.log(data); //返回选中的json数据
+          var res = data[0].value+' '+'|'+' '+data[1].value;
+          $('#trigger2').html(res);
+      }
+  });
+	</script>
+</body>
+</html>

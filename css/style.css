@@ -1,0 +1,1141 @@
+@charset "utf-8";
+.mui-off-canvas-wrap {
+	/*height: 245%;*/
+}
+.mui-bar {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	background-color: #0084ff;
+}
+.icon-icon_menu:before {
+    color: #fff;
+}
+.closeS {
+	margin-top:0.4rem;
+}
+.mui-icon-closeempty:before {
+	color: #fff;
+	font-size: 0.7rem;
+	margin-left: 0.3rem;
+	
+}
+header h1 img {
+	width: 40%;
+}
+.head-right {
+	float: right;
+	width: 0.5rem;
+	height: 0.5rem; 
+	border-radius: 100%;
+	display: block;
+	position: relative;
+}
+.head-right img {
+	width: 100%;
+}
+.head-right  i {
+	position: absolute;
+	top: 0.25rem;
+	right: 0;
+	width:0.1rem;
+	height: 0.1rem;
+	background-color: #ff0000;
+	border-radius: 100%;
+}
+.flowH {
+	width: 100%;
+	height: 2.8rem;
+	background: url(../images/bgHot.png) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.topSc {
+	width: 100%;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border-bottom: 1px solid rgba(250,250,250,.3);
+}
+.topSc img {
+	width: 40%;
+	margin-left: 0.5rem;
+}
+.menuSLeft ul {
+	margin-top: 0.5rem;
+}
+.menuSLeft ul a {
+	color: #fff;
+	font-size: 0.35rem;
+}
+.menuSLeft ul li {
+	height: 1.5rem;
+	line-height: 1.1rem;
+	padding: 0 1.3rem;
+}
+.menuSLeft ul li span {
+	margin-right: 0.3rem;
+}
+.menuSLeft ul .mui-icon-chat:before {
+	font-size: 0.35rem;
+}
+.flowH .titleF {
+	width: 90%;
+	margin-left: 5%;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	font-size: 0.32rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+}
+.flowH .pcM {
+	text-align: center;
+	margin-top:0.2rem;
+	color: #000;
+	font-size: 0.24rem;
+}
+.flowH .pcM span {
+   font-size: 0.48rem;
+   color: #0084ff;
+   margin-left: 0.1rem;
+}
+.flowH .pcM i {
+	font-style: normal;
+	display: inline-block;
+	height: 0.3rem;
+	width: 1px;
+	background-color: #ccc;
+	margin: 0 0.3rem;
+}
+.flowH .btnMore {
+	text-align: center;
+	margin-top:0.2rem;
+}
+.flowH .btnMore a {
+	display: inline-block;
+	padding: 0.1rem 0.4rem;
+	background-color: #0084ff;
+	color: #fff;
+	font-size: 0.3rem;
+	border-radius: 0.5rem;
+}
+.megS {
+	margin-top: 0.15rem;
+	width: 96%;
+	margin-left: 2%;
+	border-radius: 0.1rem;
+	background-color: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+}
+.titleC {
+	width: 100%;
+	padding-left: 0.2rem;
+	padding-top: 0.4rem;
+}
+.titleC span {
+	font-size: 0.32rem;
+	color: #000;
+}
+.titleC i {
+	font-style: normal;
+	width: 0.05rem;
+	height: 0.25rem;
+	background-color: #089aff;
+	display: inline-block;
+	margin-right:0.2rem;
+}
+.titleC a {
+	float: right;
+	margin-right: 0.3rem;
+	color: #999999;
+}
+.dataS {
+	margin-top: 0.3rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+.dataS div {
+	width: 33%;
+	position: relative;
+	text-align: center;	
+}
+.dataS div p.fP {
+	color: #000;
+	font-size: 0.42rem;
+	margin-bottom: 0.1rem;
+}
+.dataS div p.sP {
+	color: #666;
+	font-size: 0.22rem;
+}
+.dataS i {
+	font-style: normal;
+	width: 0.02rem;
+	height: 0.7rem;
+	background-color: #ccc;
+	display: inline-block;
+	position: absolute;
+	top: 0.2rem;
+	right: 0;
+}
+.flowS .btnsSeconds {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 0.25rem;
+}
+.flowS .btnsSeconds a {
+	width: 50%;
+	text-align: center;
+	color: #fff;
+	font-size: 0.3rem;
+	background-color: #00a8ff;
+	padding: 0.15rem 0;
+	border-radius: 0 0 0 0.1rem;
+}
+.flowS .btnsSeconds a:last-child {
+	background-color: #ff8400;
+	border-radius: 0 0 0.1rem 0;
+}
+.flowS .btnsSeconds a span {
+	color: #fff;
+	margin-right:0.2rem;
+}
+.titleC p {
+	color: #999;
+	font-size: 0.22rem;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+}
+.searchS .rightF {
+	width: 40%;
+	float: right;
+    padding: 0 5%;
+}
+.searchS .rightF li {
+	background-color: #02a5ff;
+	text-align: center;
+	color:#fff;
+	font-size: 0.27rem;
+	font-weight: 700;
+	font-family: Arial;
+	float: left;
+
+}
+.searchS .rightF li:nth-child(1){
+	width: 100%;
+    height: 0.85rem;
+	border-bottom: 1px solid #fff;
+}
+.searchS .rightF li:nth-child(2){
+	width: 50%;
+    height: 1.7rem;
+    padding-top: 0.4rem;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.searchS .rightF li:nth-child(3){
+	width: 50%;
+    height: 0.85rem;
+	border-bottom: 1px solid #fff;
+}
+.searchS .rightF li:nth-child(4){
+	width: 50%;
+    height: 0.85rem;
+	border-bottom: 1px solid #fff;
+}
+.searchS .rightF li:nth-child(5){
+	width: 51%;
+    height: 0.85rem;
+    border-right: 1px solid #fff;
+}
+.searchS .rightF li:nth-child(5) div:first-child{
+	font-size: 0.15rem;
+    font-weight: 400;
+    font-family: "Microsoft YaHei";
+}
+.searchS .rightF li:nth-child(6){
+	width: 49%;
+    height: 0.85rem;
+}
+.searchS {
+	padding-bottom: 0.4rem;
+}
+.keyWords{
+	padding-bottom: 0.3rem;
+}
+.keyWords .titleC img {
+	width: 10%;
+	vertical-align: top;
+	margin-left: 0.1rem;
+}
+.besk {
+	text-align: center;
+	color: #666;
+	font-size: 0.22rem;
+	margin-top: 0.5rem;
+	padding: 0 5%;
+	margin-bottom: 0.5rem;
+}
+.keyWords .barImg {
+	margin-top: 0.3rem;
+}
+.keyWords .barImg .listB {
+	margin-left: 5%;
+	margin-bottom: 0.15rem;
+}
+.keyWords .barImg span {
+	width: 18%;
+	display: inline-block;
+	color: #999;
+	font-size: .22rem;
+	vertical-align: middle;
+}
+.keyWords .barImg span:last-child {
+	width: 10%;
+	text-align: right;
+}
+.keyWords .listB div {
+	display: inline-block;
+	width: 60%;
+	height: 0.1rem;
+	border-radius: 0.1rem;
+	background-color: #dcdcdc;
+	position: relative;
+}
+.keyWords .listB div p {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 0.1rem;
+	border-radius: 0.1rem;
+}
+.keyWords .listB:nth-child(1) p {
+	background-image: -webkit-linear-gradient(left, #f6c29b 0%, #f6a588 30%, #f5635e 98%, #f55555 100%); 
+}
+.keyWords .listB:nth-child(2) p {
+	background-image: -webkit-linear-gradient(left, #fce29d 0%, #f9c373 30%, #f48a26 98%, #f37d14 100%); 
+}
+.keyWords .listB:nth-child(3) p {
+	background-image: -webkit-linear-gradient(left, #aaebd2 0%, #7bd8b1 30%, #13ae67 98%, #03a75c 100%); 
+}
+.keyWords .listB:nth-child(4) p {
+	background-image: -webkit-linear-gradient(left, #9ce2f4 0%, #69c6f2 30%, #0b92ef 98%, #018def 100%); 
+}
+.keyWords .listB:nth-child(5) p {
+	background-image: -webkit-linear-gradient(left, #82c9f3 0%, #65a5e6 30%, #4580d9 98%, #3971d4 100%); 
+}
+.keyWords .listB:nth-child(6) p {
+	background-image: -webkit-linear-gradient(left, #ccd0d8 0%, #c2c6ce 30%, #9fa3ab 98%, #9a9ea6 100%); 
+}
+/*热力更多*/
+.listHot {
+	padding: 0 0.2rem;
+	margin-top:0.5rem;
+}
+.listHot table{  
+	width: 100%;
+}  
+.listHot td{  
+	text-align: center; 
+	font-size: 0.26rem;
+	color: #666;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.listHot tbody tr:nth-child(2n+1){
+	background-color: #fff;
+}
+.listHot tbody tr:nth-child(2n){
+	background-color: #f2f2f2;
+}
+.listHot th{  
+	font-size: .28rem;
+	color: #fff;
+	font-weight: 400;
+	background-color: #0084ff;
+	height: 0.8rem;
+	line-height: 0.8rem;
+}
+
+
+/*服务中心*/
+.serviceCon {
+	background-color: #0084ff;
+}
+.service .topTitle {
+	margin-top: 0.4rem;
+	width: 100%;
+	position: relative;
+}
+.service .topTitle .topS {
+	
+}
+.service .topTitle .topS>li{
+   /*font-size: 0.26rem;*/
+   color: #fff;
+   padding: 0 0.2rem;
+   /* float: left; */
+   /* width: 25%; */
+   text-align: center;
+}
+.topTitle .topS li.activeB {
+	/*font-size: 0.3rem;*/
+	/*position: relative;*/
+}
+.topTitle .topS li.activeB::after {
+	/*content: '';*/
+	/*display: block;*/
+	/*width: 0.5rem;*/
+	/*height: 0.08rem;*/
+	/*border-radius: 0.1rem;*/
+	/*background-color: #fff;*/
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
+	/*margin-top: 0.1rem;*/
+	/*bottom: 0;*/
+}
+.tabHidden {
+	margin-top: 0.5rem;
+}
+.tabHidden ul {
+	/* display: none; */
+}
+.tabHidden ul li {
+	width: 90%;
+	margin-left: 5%;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	padding:0.1rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+}
+.listJ {
+	border: 1px solid #ccc;
+	border-radius: 0.1rem;
+	padding-top: 0.1rem;
+	position: relative;
+}
+.tabHidden ul.showUl {
+	display: block;
+}
+.tabHidden ul li .imgTitle img {
+	width: 15%;
+}
+.listJ .rightPa {
+	position: absolute;
+	right: 0;
+	top: 0.2rem;
+	width: 1.9rem;
+	height: 0.45rem;
+	text-align: center;
+	line-height: .45rem;
+	background: url("../images/ser2_11.png") no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	font-size: 0.26rem;
+}
+.tabHidden .listJ .titSmall {
+	color: #333;
+	font-size: 0.28rem;
+}
+.tabHidden .listJ .btnsSer {
+	width: 100%;
+	height: 0.75rem;
+	/*line-height: 0.75rem;*/
+	background-color: #e6e7e9;
+	margin-top: 0.3rem;
+}
+.tabHidden .listJ .btnsSer a {
+	color: #fff;
+	font-size: 0.26rem;
+    display: inline-block;
+    padding: 0.08rem 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #0084ff;
+    margin-top: 0.12rem;
+}
+.tabHidden .listJ .btnsSer a:last-child {
+	margin-left:0.8rem;
+	background-color: #adb1b6;
+}
+.tabHidden ul li:nth-child(4) .listJ .rightPa,
+.tabHidden ul li:nth-child(5) .listJ .rightPa {
+	display: none;
+}
+.tabHidden ul li:nth-child(4) .btnsSer a:last-child,
+.tabHidden ul li:nth-child(5) .btnsSer a:last-child {
+	background-color: #0084ff;
+}
+.tabHidden ul.botList3 li:nth-child(4) .listJ .rightPa {
+	display: block;
+}
+.tabHidden ul.botList3 li:nth-child(4) .btnsSer a:last-child {
+	background-color: #adb1b6;
+}
+.tabHidden .addUl {
+	width: 90%;
+	margin-left: 5%;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	padding:0.1rem;
+	margin-bottom: 0.3rem;
+	text-align: center;
+}
+.tabHidden .addUl .listJ {
+	padding-top: .5rem;
+	padding-bottom:.2rem;
+}
+.tabHidden .addUl p {
+	color: #0084ff;
+	font-size: .28rem;
+	margin-top:.2rem;
+}
+.actLists li {
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	border-radius: 0.15rem;
+	padding:0.1rem;
+	margin-bottom: 0.2rem;
+	text-align: center;
+	box-shadow: 0 0 10px #ddd;
+}
+.actTop {
+	margin-top: 0.5rem;
+	text-align: center;
+}
+.actLists {
+	margin-top: 0.5rem;
+}
+.actLists .leftAct {
+	width: 36%;
+	float: left;
+	text-align: center;
+	padding: 0.25rem 0;
+	position: relative;	
+}
+.actLists .leftAct img.icon {
+	width: 42%;
+}
+.actLists .leftAct img.lineI {
+	position: absolute;
+	right: 0;
+	top: 0.1rem;
+}
+.actLists .leftAct p {
+    color: #333;
+    font-size: .26rem;
+    margin-top: 0.2rem;
+}
+.actLists .rightAct {
+	width: 60%;
+	float: left;
+	text-align: left;
+	padding-left: 0.5rem;
+	padding-top: 0.7rem;
+}
+.actLists .rightAct p {
+	color: #666;
+	font-size: 0.24rem;
+}
+
+/*消息中心*/
+.topTab {
+	margin-top: 0.5rem;
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	border-radius: 0.1rem;
+	padding-left: 0.4rem;
+}
+.topTab .business {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	border-bottom: 1px solid rgba(102,102,102,.2);
+	padding-right: 0.2rem;
+}
+.topTab .business i {
+	margin-left:0.1rem;
+}
+.topTab span {
+	float: left;
+	color: #000;
+	font-size: 0.3rem;
+}
+.topTab .selectC {
+	float: right;
+	color: #999;
+	font-size: 0.28rem;
+}
+.topTab .selectC input {
+	border: none;
+	outline: none;
+	text-align: right;
+	margin-bottom:0;
+	padding: 0.1rem 0;
+	font-size: 0.28rem;
+}
+.topTab .week{
+	height: 0.9rem;
+	line-height: 0.9rem;
+	padding-right: 0.2rem;
+}
+.topTab .week i {
+	margin-left:0.1rem;
+}
+.titleBusi {
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	color: #999;
+	text-align: center;
+}
+.titleBusi i {
+	width: 0.15rem;
+	height: 0.05rem;
+	border-radius: 3px;
+	background-color: #c5c7c9;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0.02rem;
+	margin-left: 0.03rem;
+}
+.titleBusi p {
+	vertical-align: middle;
+	font-size: 0.3rem;
+}
+.topTab .card,
+.topTab .password,
+.topTab .code {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	border-bottom: 1px solid rgba(102,102,102,.2);
+	padding-right: 0.2rem;
+}
+.topTab .code input {
+	border: none;
+	width: 40%;
+}
+.listsSubi {}
+.listsSubi ul{}
+.listsSubi ul li{
+	width: 94%;
+	margin-left: 3%;
+	background-color: #fff;
+	border-radius: 0.1rem;
+	padding:0.4rem;
+	box-shadow: 0 0 10px #ccc;
+	margin-bottom:0.2rem;
+}
+.listsSubi ul li .tel{
+	color: #0084ff;
+	font-size: 0.28rem;
+}
+.listsSubi ul li .icon-icon_bq,
+.listsSubi ul li .icon-icon_go {
+	color: #0999ff;
+    font-size: 0.4rem;
+    vertical-align: middle;
+}
+.listsSubi ul li .tel a{
+	color: #0084ff;
+	font-size: 0.28rem;
+	border: 1px solid #0084ff;
+	border-radius: 0.25rem;
+	padding: 0.05rem 0 0.05rem 0.1rem;
+	float: right;
+	display: inline-block;
+	text-align: center;
+    margin-top:-0.1rem;
+}
+.listsSubi  .telContent {
+	margin-top: 0.2rem;
+}
+.listsSubi  .telContent p {
+	width: 50%;
+	float: left;
+	text-align: left;
+	color: #000;
+	font-size: 0.24rem;
+}
+.listsSubi  .telContent div {
+	color: #000;
+	font-size: 0.24rem;
+}
+.listsSubi  .add {
+	margin-top: 0.2rem;
+}
+.listsSubi  .add  span {
+	font-size: .22rem;
+	color: #666;
+}
+.listsSubi  .add .icon-icon_address {
+	font-size: .3rem;
+	vertical-align: middle;
+	margin-right: 0.1rem;
+}
+.listsSubi  .add div {
+	width: 50%;
+	float: right;
+}
+
+
+/*用户*/
+.userTop {
+	background-color: #fff;
+	padding: 0.4rem 0.5rem 0.3rem 0.5rem; 
+}
+.userTop .userHead {
+	width: 20%;
+	float: left;
+}
+.userTop .userHead img {
+	width: 80%;
+}
+.userTop .rightMes p{
+    margin-bottom:0.1rem;
+    color: #000;
+    font-size: 0.32rem;
+    margin-top: 0.1rem;
+}
+.userTop .rightMes p:last-child {
+	font-size: 0.24rem;
+	color: #666;
+}
+.listUser {
+	margin-top:0.3rem;
+}
+.listUser ul li {
+	width: 96%;
+	margin-left: 2%;
+	border-radius: 0.1rem;
+	background-color: #fff;
+	padding:0.3rem;
+	box-shadow: 0 0 10px #ccc;
+	margin-bottom: 0.2rem;
+}
+.listUser ul li span {
+	color: #000;
+	font-size: 0.3rem; 
+}
+.listUser ul li span.icon-youjiantou- {
+	color: #666;
+	float: right;
+}
+
+/*超级流量宝充值*/
+.flowTab {
+	padding-bottom: 0.3rem;
+	padding-right: 0.2rem;
+	box-shadow: 0 0 10px #ccc;
+}
+.flowTab .code .selectC{
+	width: 30%;
+}
+.flowTab .code img {
+	width: 100%;
+	/*height: 0.8rem;*/
+}
+.recharge {
+	margin-top: 0.6rem;
+	text-align: center;
+}
+.recharge a{
+	padding: 0.3rem 1.9rem;
+	background-color: #0084ff;
+	color: #fff;
+	font-size: 0.36rem;
+	display: inline-block;
+	border-radius: 0.5rem;
+}
+.flowTab .code input::-webkit-input-placeholder {
+	font-size: .28rem;
+	color: #999;
+}
+/*超级流量宝充值成功*/
+.sucFlowCon {
+	background-color: #fff;
+	height: 100%;
+}
+.sucFlow {
+	margin-top:3.5rem;
+}
+.sucFlow .rightBtn {
+	text-align: center;
+	font-size: 1rem;
+	color: #118aff;
+}
+.sucFlow .icon-icon_wrong {
+	color: #adadad;
+}
+.titleFlow {
+	text-align: center;
+	color: #333;
+	font-size: .36rem;
+	margin-top: 0.5rem;
+}
+.titleFlow p {
+	color: #333;
+	font-size: .36rem;
+}
+.sucRecharge {
+	text-align: center;
+	margin-top: 0.6rem;
+}
+.sucRecharge a{
+	padding: 0.3rem 1.15rem;
+    background-color: #0084ff;
+    color: #fff;
+    font-size: 0.36rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+/*充值查询*/
+.topTabQ {
+	margin-top: 0.5rem;
+}
+.topTabQ ul{
+	width: 100%;
+	padding: 0 0.2rem;	
+}
+.topTabQ ul li{
+	float: left;
+	width: 33%;
+	text-align: center;
+	background-color: #fff;
+	padding: 0.2rem 0;
+	border: 1px solid #0084ff;
+}
+.topTabQ ul li.on {
+	background-color: #0084ff;
+	color: #fff;
+}
+.topTabQ ul li:nth-child(2){
+    border-left: none;
+    border-right: none;
+}
+.topTabQ ul li:nth-child(1){
+   border-radius: 0.1rem 0 0 0.1rem;
+}
+.topTabQ ul li:nth-child(3){
+   border-radius: 0 0.1rem 0.1rem 0;
+}
+/*充值查询*/
+.listHot1 table{
+	display: none;
+}
+.contentKey {
+	background-color: #fff;
+	width: 96%;
+	margin-left: 2%;
+	padding: 0.2rem 0;
+}
+.keyTitle {
+	color: #000;
+	font-size: .32rem;
+	margin-left: 0.3rem;
+}
+
+/*用户基本信息*/
+.baseMessages {
+	width: 96%;
+	margin-left: 2%;
+	margin-top:0.5rem;
+}
+.baseMessages .userHead{
+    background-color: #fff;
+    border-radius: 0.1rem;
+    padding: 0 0.3rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.baseMessages .userHead span {
+	color: #000;
+	font-size: 0.3rem;
+	/*vertical-align: middle;*/
+}
+.baseMessages .userHead .rHead {
+	float: right;
+	display: inline-block;
+	width: 15%;
+}
+.baseMessages .userHead .lText {
+}
+.baseMessages .userHead img {
+	width: 100%;
+}
+.midMegs {
+	margin-top: 0.2rem;
+	background-color: #fff;
+	border-radius: 0.1rem;
+	padding: 0.1rem 0;
+}
+.midMegs>div{
+	height: 0.9rem;
+	line-height: 0.9rem;
+	border-bottom: 1px solid rgba(102,102,102,.3);
+	margin-left: 0.2rem;
+	padding-left:0.1rem;
+	margin-right:0.2rem;
+}
+.midMegs span,
+.botMsg span {
+	width: 28%;
+    display: inline-block;
+    float: left;
+    color: #000;
+    font-size: .3rem;
+}
+.midMegs .rMsg,
+.botMsg .rMsg {
+	width: 72%;
+	float: right;
+	text-align: right;
+	padding-right: 0.2rem;
+	color: #777;
+	font-size: .28rem;
+} 
+.midMegs .rMsg input, 
+.botMsg .rMsg input {
+	border: none;
+	outline: none;
+	padding: 10px 0;
+	text-align: right;
+	color: #333;
+	font-size: .28rem;
+	margin-bottom: 0;
+}
+.midMegs .address{
+	border-bottom: 0;
+	position: relative;
+	margin-right:0.4rem;
+}
+
+.midMegs .address .rMsg, 
+.botMsg .rMsg {
+	color: #333;
+} 
+.midMegs .address .iconfont,
+.botMsg  .iconfont {
+	font-size: 0.28rem;
+	position: absolute;
+	right: -0.2rem;
+	top: 0.03rem;
+}
+.botMsg {
+	margin-top:0.2rem;
+	background-color: #fff;
+	border-radius: 0.1rem;
+	padding: 0.1rem 0;
+}
+.botMsg>div{
+	height: 0.9rem;
+	line-height: 0.9rem;
+	border-bottom: 1px solid rgba(102,102,102,.3);
+	margin-left: 0.2rem;
+	padding-left:0.1rem;
+	margin-right:0.2rem;
+}
+.botMsg .industry .rMsg{
+	position: relative;
+}
+.botMsg .industry {
+	padding-right: 0.4rem;
+}
+.botMsg .range {
+	border-bottom: none;
+}
+.btnUpdate {
+	margin-top: 0.8rem;
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+.btnUpdate a {
+	padding: 0.22rem 1rem;
+	background-color: #0084ff;
+	color: #fff;
+	border-radius: 0.5rem;
+	font-size: .36rem;
+}
+.btnUpdate a.cancel {
+	background-color: #999999;
+	margin-right: 0.3rem;
+}
+.btnUpdate1 a {
+	padding: 0.22rem 1.9rem;
+	background-color: #0084ff;
+	color: #fff;
+	border-radius: 0.5rem;
+	font-size: .36rem;
+}
+.midMegs .addressU {
+	margin-right: 0;
+}
+.botMsg .industryU {
+	padding-right: 0;
+}
+.botMsgU .rMsg {
+	color: #777;
+}
+.listsSa input{
+	border:none;
+	outline: none;
+	width: 80%;
+	margin-bottom: 0;
+}
+.listsSa ul li span.icon-icon_see {
+	float: right;
+	color: #78cf7a;
+	display: inline-block;
+	font-size: 0.4rem;
+	/*margin-top:0.2rem;*/
+}
+.listsSa ul li span.M02 {
+	margin-top:0.2rem;
+}
+.listsSa input::-webkit-input-placeholder{
+	color: #999;
+	font-size: 0.3rem;
+}
+.listsSa ul li span.icon-icon_hide {
+	float: right;
+	color: #666;
+	display: inline-block;
+	font-size: 0.4rem;
+	/*margin-top:0.1rem;*/
+}
+.listsSa ul li span.icon-icon_lock1 {
+	color: #666;
+	font-size: 0.4rem;
+}
+.listsSa ul li div {
+	height: 1rem;
+	line-height: 1rem;
+}
+.btnConfim {
+	margin-top: 5.5rem;
+}
+/*已购买服务*/
+.titlePurSale {
+	margin-top: 0.5rem;
+	text-align: center;
+	color: #666;
+	font-size: .26rem;
+}
+
+
+/*在线客服*/
+.onlineM {
+	position: fixed;
+	right: 0;
+	top: 60%;
+	transform: translateY(-50%);
+	z-index: 100;
+	/* text-align:  right; */
+}
+.onlineM .portrait {
+	position: relative;
+}
+.onlineM .textImg img {
+	width: 54%;
+}
+.onlineM .portraitImg img {
+	width: 52%;
+}
+.onlineM .textImg {
+	position: absolute;
+	right: -0.8rem;
+	top: -0.5rem;
+}
+.onlineM .portraitImg {
+    margin-right:0;
+    text-align: right;
+    /* padding-left: 0.1rem; */
+    margin-right: 0.2rem;
+}
+.onlineM .onlineName {
+	text-align: right;
+	color: #327bfd;
+	font-size: 0.26rem;
+	margin-right: 0.4rem;
+}
+.onlineM .listsConcat li{
+	padding: 0.3rem 0 0 0;
+	background-color: #4a8bfd;
+	text-align: center;
+	color: #fff;
+	width: 48%;
+	margin-left: 42%;
+	position: relative;
+}
+.onlineM .listsConcat li div.iconfont {
+	width: 60%;
+	margin-left:20%;
+	font-size: 0.5rem;
+}
+.onlineM .listsConcat .listText {
+	border-bottom: 0.01rem solid rgba(250,250,250,.7);
+	font-size: 0.2rem;
+	padding-bottom: 0.2rem;
+	margin-top: 0.1rem;
+} 
+.onlineM .listsConcat li .hideLeft {
+	position: absolute;
+	top: -15%;
+	right: 110%;
+	color: #327bfd;
+	width: 220%;
+	font-size: 0.2rem;
+	background-color: #fff;
+	padding: 0.4rem 0;
+}
+.onlineM .hideLeft .nowConcat {
+	color: #000;
+	font-size: .22rem;
+	margin-top: 0.1rem;
+}
+.onlineM .hideLeft .qqNow {
+	width: 60%;
+	margin-left:20%;
+}
+.onlineM .hideLeft .VipNow {
+	width: 60%;
+	margin-left:20%;
+}
+.onlineM .hideLeft .telConcat {
+	width: 70%;
+	margin-left: 15%;
+	border: 1px solid #327bfd;
+	margin-top: 0.1rem;
+}
+.onlineM .hideLeft .btnConcat {
+    margin-top: 0.1rem
+}
+.onlineM .hideLeft .btnConcat a {
+	font-size: .22rem;
+	color: #fff;
+	background-color: #327bfd;
+	display: inline-block;
+	padding: 0.15rem 0.65rem;
+}
+.onlineM .listsConcat li .hideLeft .three {
+	display: block;
+	width: 0;
+    height: 0;
+    border-width: 0.15rem;
+    border-style: solid;
+	border-color: transparent transparent transparent #fff;
+	position: absolute;
+	right: -0.25rem;
+	top: 12%;
+}
+.onlineM .listsConcat li.onActive {
+	background-color: #327bfd;
+}
+.onlineM .listsConcat .hideLeft {
+	display: none;
+}
+.onlineM .listsConcat li.onActive .hideLeft {
+	display: block;
+}

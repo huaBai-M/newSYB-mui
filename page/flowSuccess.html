@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/mui.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/base_c.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/app.css"/>
+	<link rel="stylesheet" type="text/css" href="../fonts/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+</head>
+<body>
+	<!-- 侧滑导航根容器 -->
+	<div class="mui-off-canvas-wrap mui-draggable service">
+		<!-- 主页面容器 -->
+		<div class="mui-inner-wrap">
+			<!-- 菜单容器 -->
+			<aside class="mui-off-canvas-left" id='offCanvasSide'>
+				<div class="mui-scroll-wrapper bgScroll">
+					<div class="mui-scroll menuSLeft">
+						<!-- 菜单具体展示内容 -->
+					</div>
+				</div>
+			</aside>
+			<!-- 主页面标题 -->
+			<header class="mui-bar mui-bar-nav">
+
+			</header>
+			<!-- 主页面内容容器 -->
+			<div class="mui-content mui-scroll-wrapper">
+				<div class="mui-scroll sucFlowCon">
+                 <div class="sucFlow">
+                     <div class="rightBtn iconfont icon-icon-zhengque">
+              
+                     </div>  
+                     <div class="titleFlow">
+						充值成功
+                     </div>  
+                 </div>
+			  <div class="sucRecharge">
+                  <a href="#">确定</a>
+			  </div>	
+			  </div>
+			  	<!-- 在线客服 -->
+                  <div class="onlineM">
+                      <div class="rightBox">
+                          <div class="portrait">
+                              <div class="textImg"><img src="../images/onlineText.png" alt=""></div>
+                              <div class="portraitImg">
+                              <img src="../images/onlineHead.png" alt="">
+                              </div>
+                              <div class="onlineName">
+                                 唐月芹
+                              </div>
+                          </div>
+                          <div class="listsConcat">
+                              <ul>
+                                  <li>
+                                      <div class="iconfont icon-qq"></div>
+                                      <div class="listText">QQ交谈</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-tencentqq"></div>
+                                          <div class="nowConcat qqNow">您好有什么问题
+                                          请立即与我联系</div>
+                                          <div class="btnConcat"><a href="#">点击咨询</a></div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="iconfont icon-VIPhuiyuan"></div>
+                                      <div class="listText">VIP专线</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-VIPhuiyuan"></div>
+                                          <div class="nowConcat qqNow VipNow">尊享VIP专线0312-8634995竭诚为您服务</div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="iconfont icon-ai206"></div>
+                                      <div class="listText" style="border-bottom: none;">专属客服</div>
+                                      <div class="hideLeft">
+                                          <div class="iconfont icon-ai206"></div>
+                                          <div class="nowConcat">马上取得联系</div>
+                                          <div class="telConcat">15900099963</div>
+                                          <div class="btnConcat"><a href="#">免费通话</a></div>
+                                          <span class="three"></span>
+                                      </div>
+                                  </li>
+                              </ul>
+                                
+                          </div>
+                      </div>
+                  </div>
+			  </div>
+			<!--结束-->
+		</div>
+	</div>
+
+	<script src="../js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/rem.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>		
+	<script src="../js/head.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/service.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/online.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		mui('.mui-scroll-wrapper').scroll({
+			deceleration: 0.0005
+		});
+	</script>
+</body>
+</html>
